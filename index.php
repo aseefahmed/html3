@@ -27,12 +27,8 @@ echo "Connected successfully";
 <body>
 
 <div class="container">
-  <h2>Employees Details: Server 2</h2>
+  <h2>Employees Details: Server <?php echo $_SERVER['SERVER_ADDR']; ?></h2>
   
-
-
-
-
 <table class="table table-striped table-bordered table-hover" id="dataTables-example">
     <thead>
         <tr>
